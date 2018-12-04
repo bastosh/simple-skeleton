@@ -1,6 +1,6 @@
-# SIMPLE Project • Twig skeleton
+# SIMPLE Project • Skeleton
 
-Twig version of simple skeleton
+Micro-framework PHP
 
 ## Requirements
 - Composer installed
@@ -14,7 +14,7 @@ Twig version of simple skeleton
 ## Download
 Download or clone the repository :
 ```
-git clone https://github.com/bastosh/simple-demo.git my-new-project
+git clone https://github.com/bastosh/simple-skeleton.git my-new-project
 ```
 Go into the folder and start a new Git repository :
 ```
