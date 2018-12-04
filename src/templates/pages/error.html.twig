@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Page non trouvée
+{% endblock %}
+
+{% block style %}
+<style>
+    body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+    main {
+        flex: 1;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+    <main class="grid-y align-center">
+        <h1 class="text-center">Page does not exist</h1>
+        <a class="text-center lead" href="/">Shall we bring you home?</a>
+    </main>
+{% endblock %}
