@@ -27,7 +27,7 @@ gulp.task('purgecss', () => {
         .src(['public/css/app.css'])
         .pipe(
             $.purgecss({
-                content: ['src/templates/**/*.twig', 'app/views/**/*.php']
+                content: ['app/views/**/*.php']
             })
         )
         .pipe(gulp.dest('public/css'))

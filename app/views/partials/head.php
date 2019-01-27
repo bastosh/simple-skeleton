@@ -20,7 +20,7 @@
 
   <body class="grid-container">
 
-    <nav class="grid-x align-justify">
+    <nav class="grid-x align-center">
       <?php include('nav.php'); ?>
     </nav>
 
